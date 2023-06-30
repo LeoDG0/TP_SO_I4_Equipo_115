@@ -1,0 +1,33 @@
+Integrantes
+Leonardo De Gregorio
+Gaggino Lucas
+Dongo Huaman Juan Pablo
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+azul
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+amarillo
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+azul
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+cambios al unísono:
+beta
+
+Pregunta:
+E- ¿Algún integrante tuvo problemas al hacer el push?
+si, beta y gamma
+
+F- ¿Qué problemas surgieron?
+tener el repositorio local desactualizado sin los cambios de alfa
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución adoptada?
+actualizar el respositorio local con git rebase upstream/[rama] o realizar un git clone
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+se utiliza para forzar la actualización del repositorio remoto con los cambios locales.
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20 en DESARROLLO ?
+actualizar el repositorio local luego de que se realize un cambio sobre el remoto y realizar echo "<p>...</p>" >> index.html
